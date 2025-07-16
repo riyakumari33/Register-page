@@ -1,0 +1,69 @@
+.outer{
+    background-color: rgb(10, 10, 84);
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+}
+h1{
+    color:rgb(20, 97, 20);
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+    top:10px;
+    left:110px;
+}
+p{
+    color: whitesmoke;
+    letter-spacing:1.5px;
+    position: absolute;
+    top:90px;
+    left:40px;
+}
+.firstname , .lastname , .email , .password , .confirm , .button{
+    margin-left: 10px;
+    position:absolute;
+    top:140px;
+    left:20px;
+}
+.lastname{
+    margin-left: 10px;
+    top:140px;
+    left:200px;
+}
+.email{
+    top:190px;
+}
+.password{
+    top:240px;
+}
+.confirm{
+    top:290px;
+}
+.button{
+    background-color: rgb(20,97,20);
+    top:350px;
+    left:150px;
+    border:2px black;
+    font-size:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: white;
+}
+.first-input, .last-input , .email-input , .confirm-input , .pass-input{
+    width:340px;
+    height: 30px;
+    border-radius: 5px;
+}
+.first-input , .last-input{
+    width:auto
+}
+.signin{
+    top:375px;
+    left:90px;
+}
+a{
+    color:rgb(28, 132, 28);
+}
